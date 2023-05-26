@@ -1,0 +1,16 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: demo
+
+  sql:
+    init:
+      platform: mysql
+
+  datasource:
+    url: jdbc:mysql://umcdb.cnafu0rdttqx.ap-southeast-2.rds.amazonaws.com:3306/umcdb # 변경해주세요
+    username: leedongha # Database ID
+    password: dlehdgk0225 # Database Password
+    driver-class-name: com.mysql.cj.jdbc.Driver
